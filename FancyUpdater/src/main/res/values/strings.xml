@@ -61,8 +61,8 @@
     <string name="settings_general_settings">General settings</string>
     <string name="settings_checktime_title">Update check frequency</string>
     <string name="settings_check_for_tst_builds">Check for tst builds</string>
-    <string name="settings_check_for_tst_builds_summary_on">Updater\'ll check for tst builds.</string>
-    <string name="settings_check_for_tst_builds_summary_off">Updater won\'t check for tst builds.</string>
+    <string name="settings_check_for_tst_builds_summary_on">Updater\'ll check for test builds.</string>
+    <string name="settings_check_for_tst_builds_summary_off">Updater won\'t check for test builds.</string>
     <string name="settings_checktime_summary">Specify the time between each update check</string>
     <string name="time_notifications_never">Don\'t check</string>
     <string name="time_notifications_half_an_hour">Half an hour</string>
