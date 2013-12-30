@@ -1,0 +1,94 @@
+<!--
+  Copyright 2013 Fancy Updater (Boy Petersen & Parthipan Ramesh)
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Fancy Updater</string>
+    <string name="settings">Settings</string>
+    <string-array name="drawer_array">
+        <item>Updates</item>
+        <item>Changelog</item>
+        <item>CPU control</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Update -->
+    <string name="checking_update">Checking for new versions..</string>
+    <string name="install_fancy_kernel">Install Fancy Kernel!</string>
+    <string name="unsupported_kernel">Unsupported Kernel detected..</string>
+    <string name="status_updating">Updating..</string>
+    <string name="latest_kernel">Latest Kernel:</string>
+    <string name="installed_kernel">Installed Kernel:</string>
+    <string name="update_available">Update available!</string>
+    <string name="up_to_date">You\'re up to date!</string>
+    <string name="no_connection">No connection!</string>
+    <string name="unsupported_device">Unsupported device detected..</string>
+    <string name="latest_kernel_not_available">Latest Kernel: n/a</string>
+    <string name="update">Update!</string>
+    <string name="select_update_channel">Select update channel</string>
+    <string name="switch_update_channel">Switch update channel</string>
+    <string name="version_abandoned">You\'re version got abandoned..</string>
+
+    <!-- Changelog -->
+    <string name="changelog_error">Couldn\'t load changelog..</string>
+
+    <!-- Notification -->
+    <string name="notification_text">Tap to start Fancy Updater!</string>
+
+    <!-- CPU -->
+    <string name="cpu_governor">Governor</string>
+    <string name="cpu_min">Min</string>
+    <string name="cpu_max">Max</string>
+    <string name="cpu_min_screen_on">Min Screen On</string>
+    <string name="cpu_max_screen_off">Max Screen Off</string>
+
+    <!-- SETTINGS -->
+    <string name="settings_general_settings">General settings</string>
+    <string name="settings_checktime_title">Update check frequency</string>
+    <string name="settings_check_for_tst_builds">Check for tst builds</string>
+    <string name="settings_check_for_tst_builds_summary_on">Updater\'ll check for tst builds.</string>
+    <string name="settings_check_for_tst_builds_summary_off">Updater won\'t check for tst builds.</string>
+    <string name="settings_checktime_summary">Specify the time between each update check</string>
+    <string name="time_notifications_never">Don\'t check</string>
+    <string name="time_notifications_half_an_hour">Half an hour</string>
+    <string name="time_notifications_an_hour">1 hour</string>
+    <string name="time_notifications_two_hours">2 hours</string>
+    <string name="time_notifications_five_hours">5 hours</string>
+    <string name="time_notifications_daily">Daily</string>
+    <string name="settings_wifi_only_title">Use wifi only</string>
+    <string name="settings_wifi_only_summary_on">Only wifi is allowed to check for updates.</string>
+    <string name="settings_wifi_only_summary_off">All networks are allowed to check for updates.</string>
+
+    <string name="settings_cpu_settings">CPU settings</string>
+    <string name="settings_apply_on_boot">Apply settings on boot</string>
+    <string name="settings_apply_on_boot_summary_on">Settings will be applied on boot.</string>
+    <string name="settings_apply_on_boot_summary_off">Settings won\'t be applied on boot.</string>
+
+    <string name="settings_apply_grace_peroid">Apply grace period</string>
+    <string name="settings_apply_grace_peroid_summary">Specify the apply grace period in seconds</string>
+
+    <!-- ABOUT -->
+    <string name="about">About</string>
+    <string name="dialog_about">Fancy Updater developed by Parthipan Ramesh allows you to update Fancy Kernel.
+        \n\nMany thanks to:
+        \n - Boy Petersen (Developer of Fancy Kernel)
+        \n - Dani Rosenkamp (App icon)
+        \n - Jorrit "Chainfire" Jongma (libsuperuser - Apache License, Version 2.0)
+        \n\n Copyright 2013 Fancy Updater. All rights reserved.</string>
+    <string name="close">Close</string>
+</resources>

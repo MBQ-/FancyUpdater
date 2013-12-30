@@ -1,0 +1,37 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.7.+'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.1"
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 19
+    }
+
+    buildTypes
+            {
+                release {
+                    runProguard true
+                    proguardFile getDefaultProguardFile('proguard-android.txt')
+                    proguardFile 'proguard.txt'
+                }
+            }
+}
+
+dependencies {
+    compile project (":libsuperuser")
+    compile fileTree(dir: 'libs', include: '*.jar')
+}

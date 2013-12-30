@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="D:\Users\Parthipan\Documents\Android Studio Projects\Fancy Updater\libsuperuser\assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\Users\Parthipan\Documents\Android Studio Projects\Fancy Updater\libsuperuser\src\debug\assets" />
+    </dataSet>
+
+</merger>

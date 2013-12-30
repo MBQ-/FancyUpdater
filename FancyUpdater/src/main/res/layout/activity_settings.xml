@@ -1,0 +1,65 @@
+<!--
+  Copyright 2013 Fancy Updater (Boy Petersen & Parthipan Ramesh)
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <PreferenceCategory android:title="@string/settings_general_settings">
+
+        <CheckBoxPreference
+            android:key="check_tst_build"
+            android:title="@string/settings_check_for_tst_builds"
+            android:summaryOn="@string/settings_check_for_tst_builds_summary_on"
+            android:summaryOff="@string/settings_check_for_tst_builds_summary_off"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="checktime"
+            android:title="@string/settings_checktime_title"
+            android:summary="@string/settings_checktime_summary"
+            android:dialogTitle="@string/settings_checktime_title"
+            android:entries="@array/time_notifications_entries"
+            android:entryValues="@array/time_notifications_values" />
+
+        <CheckBoxPreference
+            android:key="wifi_only"
+            android:title="@string/settings_wifi_only_title"
+            android:summaryOn="@string/settings_wifi_only_summary_on"
+            android:summaryOff="@string/settings_wifi_only_summary_off"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_cpu_settings">
+
+        <CheckBoxPreference
+            android:key="apply_on_boot"
+            android:title="@string/settings_apply_on_boot"
+            android:summaryOn="@string/settings_apply_on_boot_summary_on"
+            android:summaryOff="@string/settings_apply_on_boot_summary_off"
+            android:defaultValue="false" />
+
+        <EditTextPreference
+            android:key="apply_grace_period"
+            android:title="@string/settings_apply_grace_peroid"
+            android:summary="@string/settings_apply_grace_peroid_summary"
+            android:inputType="number"
+            android:defaultValue="60"
+            android:dependency="apply_on_boot" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
